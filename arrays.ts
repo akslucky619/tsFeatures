@@ -11,3 +11,14 @@ const car1 = carMakers[0];
 
 // prevent incompatible values
 carMakers.push(100);
+
+// help with map
+carMakers.map((car: string): string => {
+  return car;
+});
+
+// flexible types
+const importantDates: (Date | string)[] = [new Date()];
+importantDates.push("iisisis");
+importantDates.push(new Date());
+importantDates.push(100); //adding wrong type
