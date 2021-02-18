@@ -3,7 +3,7 @@ const add = (a: number, b: number): number => {
 };
 
 // ts error when write annotations for return value
-// i.e it will infer return as void
+// i.e it will infer return as void if not writing return statement
 const substract = (a: number, b: number) => {
   a - b;
 };
