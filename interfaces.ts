@@ -23,6 +23,15 @@ const oldCivic = {
   },
 };
 
+const softDrink = {
+  color: "Brown",
+  carbonated: true,
+  sugar: 40,
+  summary(): string {
+    return `Name: ${this.color}`;
+  },
+};
+
 // const printVehicle = (vehicle: {
 //   name: string;
 //   year: number;
@@ -44,3 +53,4 @@ const printSummary = (item: Reportable): void => {
 };
 
 printSummary(oldCivic);
+printSummary(softDrink);
