@@ -4,6 +4,7 @@ const drink = {
   sugar: 40,
 };
 
+
 // type alias
 type Drink = [string, boolean, number];
 

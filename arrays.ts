@@ -9,13 +9,14 @@ const bikeMakers = [["yamaha"], ["honda"], ["kawasaki"]];
 // help with inference when extracting values from an array
 const car1 = carMakers[0];
 
-// prevent incompatible values
-carMakers.push(100);
+// prevent incompatible values (since 100 is not a string)
+carMakers.push(100); 
 
 // help with map
 carMakers.map((car: string): string => {
   return car;
 });
+
 
 // flexible types
 const importantDates: (Date | string)[] = [new Date()];

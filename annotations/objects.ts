@@ -10,6 +10,7 @@ const profile = {
   },
 };
 
+
 // cannot directly write {age}:number when destructuring
 const { age }: { age: number } = profile;
 const {

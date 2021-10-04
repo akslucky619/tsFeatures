@@ -34,6 +34,7 @@ const logWeather = (forecast: { date: Date; weather: string }): void => {
   console.log(forecast.weather);
 };
 
+
 // es2015
 
 const logWeather2 = ({

@@ -13,6 +13,7 @@ let colors: String[] = ["red", "blue", "green"];
 let myNums: number[] = [1, 2, 3];
 let truthys: boolean[] = [true, true, false];
 
+
 // classes
 class Car {}
 
